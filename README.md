@@ -1,6 +1,19 @@
 ## **Weather App**🌤️
 
-A responsive, modern weather application built with HTML, CSS, and JavaScript. It fetches real-time weather data via the OpenWeatherMap API, supports city search, displays current conditions with dynamic icons and suggestions, and includes a light/dark theme toggle for personalized use.
+A responsive, modern weather application built with HTML, CSS, and JavaScript. It fetches real-time weather data via the OpenWeatherMap API, supports city search, displays current conditions with dynamic icons and suggestions, and includes a toggle for switching between light/dark themes for personalized use.
+
+**Live Demo** : [ https://shruti0628.github.io/weather-app-project/](url)
+
+## **Screenshots**
+  - Light Theme: 
+  
+  <img width="364" height="392" alt="Light-Theme-Weather-Application" src="https://github.com/user-attachments/assets/ed0b4e8a-af6e-49ab-8e4f-ef5b07c5ce15" />
+
+  - Dark Theme:
+  
+  <img width="362" height="395" alt="Dark-Theme-Weather-Application" src="https://github.com/user-attachments/assets/26b12406-1805-495d-ba0c-fea35a65a892" />
+
+
 
 ## **Features**
 1. City Search: Instantly fetch weather for any location via the search bar.
