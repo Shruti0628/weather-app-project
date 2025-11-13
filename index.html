@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src = "script.js" defer></script>
+</head>
+<body>
+    <section class="container">
+        <div class="weather_content">
+            <!-- Search Header -->
+            <div class="weather_header">
+                <form class="search_form">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" class="search_input" placeholder="Search your location..." required autocomplete = "off">
+                </form>
+                <button class="theme-toggle" aria-label="Toggle theme" type="button">
+                     <i class="fa-solid fa-sun" id="theme-icon"></i>
+                </button>
+            </div>
+
+            <!-- Weather Body -->
+            <div class="weather_body">
+                <!-- Date and Time -->
+                <div class="day_time_date">
+                    <div class="date">Friday, Nov 11 2025</div>
+                    <div class="time">10:00 AM</div>
+                </div>
+
+                <!-- City Name -->
+                <h1 class="city_name"></h1>
+
+                <!-- Weather Icon -->
+                <div class="weather_icon">
+                    <i class="fa-solid fa-cloud"></i>
+                </div>
+
+                <!-- Weather Forecast Badge -->
+                <div class="weather_forecast">Cloudy</div>
+
+                <!-- Temperature -->
+                <div class="temperature">20°C</div>
+
+                <!-- Min/Max Temperature -->
+                <div class="min_max_temp">
+                    <span class="min_temp">Min: 18°C</span>
+                    <span class="max_temp">Max: 24°C</span>
+                </div>
+
+                <!-- Suggestion Banner -->
+                <div class="suggestion">Suggestion : Wear some thin warm clothes!</div>
+
+                <!-- Weather Details Grid -->
+                <div class="weather_details">
+                    <div class="detail_box">
+                        <i class="fa-solid fa-temperature-three-quarters" style="color: #000000;"></i>
+                        <div class="detail_info">
+                            <div class="detail_label">Feels Like</div>
+                            <div class="temp_val">20°C</div>
+                        </div>
+                    </div>
+
+                    <div class="detail_box">
+                        <i class="fa-solid fa-droplet" style="color: #000000;"></i>
+                        <div class="detail_info">
+                            <div class="detail_label">Humidity</div>
+                            <div class="humid_value">89%</div>
+                        </div>
+                    </div>
+
+                    <div class="detail_box">
+                        <i class="fa-solid fa-wind" style="color: #000000;"></i>
+                        <div class="detail_info">
+                            <div class="detail_label">Wind Speed</div>
+                            <div class="speed_value">3.58 m/s</div>
+                        </div>
+                    </div>
+
+                    <div class="detail_box">
+                        <i class="fa-solid fa-gauge" style="color: #000000;"></i>
+                        <div class="detail_info">
+                            <div class="detail_label">Pressure</div>
+                            <div class="pressure_value">983hPa</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
